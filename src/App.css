@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  background-color: aqua;
+  height: 100vh; /* Set height to 100% of viewport height */
 }
+
 
 .App-logo {
   height: 40vmin;

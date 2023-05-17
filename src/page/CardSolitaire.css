@@ -1,0 +1,36 @@
+.dealt-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 80px;
+    height: 120px;
+    margin: 10px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .card.spades, .card.clubs {
+    color: black;
+  }
+  
+  .card.hearts, .card.diamonds {
+    color: red;
+  }
+  
+  .card.hidden {
+    background-image: url("https://via.placeholder.com/80x120");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .card.selected {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
